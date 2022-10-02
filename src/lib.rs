@@ -11,7 +11,7 @@ pub fn read_in_template(fname: &str) -> Result<String, Error> {
     let mut contents = String::new();
     buf_reader.read_to_string(&mut contents)?;
     info!("Read in {} bytes", contents.len());
-    return Ok(contents.to_string());
+    Ok(contents.to_string())
 }
 
 pub fn write_dockerfile(contents: String) -> Result<(), Error> {
