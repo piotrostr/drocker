@@ -1,4 +1,4 @@
-use rocker::read_in_template;
+use drocker::read_in_template;
 
 #[test]
 fn it_works() {

@@ -1,4 +1,4 @@
-use rocker::{dockerfile_exists, read_in_template, write_dockerfile};
+use drocker::{dockerfile_exists, read_in_template, write_dockerfile};
 
 fn main() {
     env_logger::init();
